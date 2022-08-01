@@ -6,7 +6,7 @@ import './Form.css';
 export default function Form({ handleSubmit, handleChange, novaTarefa }) {
   return (
     <form onSubmit={handleSubmit} action="#" className="form">
-      <input onChange={handleChange} type="text" value={novaTarefa} />
+      <input onChange={handleChange} type="text" value={novaTarefa} placeholder="Digite sua tarefa aqui" />
       <button type="submit">
         <FaPlus />
       </button>

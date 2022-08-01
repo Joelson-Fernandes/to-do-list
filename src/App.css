@@ -5,8 +5,6 @@
   box-sizing: border-box;
 }
 
-.App {
-  text-align: center;
-  color: blue;
+body {
+  background-color: #232946;
 }
-

@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
 .main {
-  background-color: aquamarine;
+  background-color: #b8c1ec;
   padding: 30px;
-  margin: 10px auto;
+  margin: 60px auto;
   max-width: 500px;
+  border: 2px solid #0e172c;
   border-radius: 5px;
-  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.3);
+  color: #232946;
+  font-family: 'Rubik', sans-serif;
 }
 
 .main h1 {
   text-align: center;
+  margin-bottom: 10px;
 }
